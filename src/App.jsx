@@ -1,10 +1,10 @@
-import React from 'react';
-import Button from './components/Button/Button';
+import Button from './components/Button';
 import CourseInfo from './components/CourseInfo';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Nav from './components/Nav';
+import Section from './components/Section';
 
 const App = function app () {
   return (
@@ -15,6 +15,7 @@ const App = function app () {
       <Header />
       <MainContent />
       <Nav />
+      <Section />
     </div>
   );
 };
