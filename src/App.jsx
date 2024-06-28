@@ -1,21 +1,13 @@
-import Button from './components/Button';
-import CourseInfo from './components/CourseInfo';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import MainContent from './components/MainContent';
-import Nav from './components/Nav';
-import Section from './components/Section';
 
-const App = function app () {
+const App = () => {
   return (
-    <div className='Container'>
-      <Button />
-      <CourseInfo />
-      <Footer />
+    <div className='container'>
       <Header />
-      <MainContent />
-      <Nav />
-      <Section />
+      <MainContent/>
+      <Footer />
     </div>
   );
 };
