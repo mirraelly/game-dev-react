@@ -1,8 +1,17 @@
-const MainContent = () => {
- return (
-  <h1>Main</h1>  
+import Section from './Section';
+import CourseInfo from './CourseInfo';
 
- );
+const MainContent = () => {
+    return (
+        <>
+            <Section>
+                <CourseInfo />
+            </Section>
+            {/* <Section></Section>
+            <Section></Section>
+            <Section></Section> */}
+        </>
+    );
 
 };
 

@@ -1,10 +1,18 @@
-const Button = () => {
+import PropTypes from 'prop-types';
+
+const Button = ({ children }) => {
     return (
         <div className="enrollment">
-            <img src="./assets/images/pencilIcon.svg" alt="Enrollment's icon" />
-            <span>Inscreva-se agora</span>
+            { children }
         </div>
     )
 }
+
+// Declare prop types (make children required)
+// Use node because it supports single or multiple children
+Button.propTypes = {
+    children: PropTypes.node.isRequired
+}
+
 
 export default Button;

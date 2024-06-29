@@ -1,18 +1,18 @@
-import star from '../assets/images/star-icon.svg';
+import PropTypes from 'prop-types';
 
-const Baloon = () => {
+// Os balões são conteineres para conteúdos flutuantes
+const Baloon = ({ children }) => {
     return (
-        <>
-        <div>
-            <h2>32K</h2>
-            <p>Alunos Matriculados</p>
+        <div className='baloon'>
+           {children}
         </div>
-        <div>
-            <h2>4.7 <img src={star} alt="star--v1"/></h2>
-            <p>Alunos Matriculados</p>
-        </div>
-        </>
     );
 };
+
+// Declare prop types (make children required)
+// Use node because it supports single or multiple children
+Baloon.propTypes = {
+    children: PropTypes.node.isRequired
+}
 
 export default Baloon;
