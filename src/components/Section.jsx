@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 
 // Use Prop
-const Section = ({ children }) => {
+const Section = ({ children, className }) => {
     return (
-        <section>
+        <section className={className}>
             {children}
         </section>
     );
@@ -12,7 +12,8 @@ const Section = ({ children }) => {
 // Declare prop types (make children required)
 // Use node because it supports single or multiple children
 Section.propTypes = {
-    children: PropTypes.node.isRequired
+    children: PropTypes.node.isRequired,
+    className: PropTypes.string.isRequired
 }
 
 export default Section;
