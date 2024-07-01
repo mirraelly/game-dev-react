@@ -10,11 +10,11 @@ const CourseInfo = () => {
         <section className="firstSection textBlue">
             <section className='leftSide textWhite' >
                 <h2>Aprenda a arte do Game Dev</h2>
-                <p>Este é um curso abrangente sobre Desenvolvimento de Jogos.
+                <p className='textSetting'>Este é um curso abrangente sobre Desenvolvimento de Jogos.
                     Você aprenderá tudo, desde gerar uma ideia até publicar seus jogos em diferentes plataformas.</p>
                 <Button className="enrollmentButton">
                     <img src={pencilIcon} alt="Enrollment's icon" id='pencilIcon' className='icon' />
-                    <span>Inscreva-se agora</span>
+                    <span className='textSetting'>Inscreva-se agora</span>
                 </Button>
             </section>
             <section className='middle'>
