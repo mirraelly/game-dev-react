@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import '../styles/CourseInfo.css';
 
 // Os balões são conteineres para conteúdos flutuantes
 const Baloon = ({ children }) => {

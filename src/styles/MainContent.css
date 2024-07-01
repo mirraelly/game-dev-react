@@ -7,15 +7,45 @@
 }
 
 .firstSection .leftSide {
-    flex: 0 0 45%;
+    flex: 0 0 40%;
 }
 
 .firstSection .middle {
-    flex: 0 0 25%;
+    flex: 0 0 20%;
 }
 
 .firstSection .rightSide {
-    flex: 0 0 30%;
+    flex: 0 0 40%;
 }
 
+.firstSection .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8em;
+}
 
+.firstSection .baloon {
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 13em;
+    height: 5.125em;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.firstSection .middle>div {
+    display: flex;
+    width: 100%;
+}
+
+.firstSection .middle> :first-child {
+    justify-content: end;
+}
+
+.firstSection .middle> :nth-child(2) {
+    width: 80%;
+}

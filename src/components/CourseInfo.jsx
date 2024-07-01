@@ -14,18 +14,22 @@ const CourseInfo = () => {
                     Você aprenderá tudo, desde gerar uma ideia até publicar seus jogos em diferentes plataformas.</p>
                 <Button className="enrollmentButton">
                     <img src={pencilIcon} alt="Enrollment's icon" id='pencilIcon' className='icon' />
-                    <span className='textSetting'>Inscreva-se agora</span>
+                    <span>Inscreva-se agora</span>
                 </Button>
             </section>
             <section className='middle'>
-                <Baloon>
-                    <p className='textBig'>32K</p>
-                    <p>Alunos Matriculados</p>
-                </Baloon>
-                <Baloon>
-                    <p className='textBig'>4.7 <img src={star} alt="star--v1" className='icon-4x' /></p>
-                    <p>Classificação geral</p>
-                </Baloon>
+                <div>
+                    <Baloon className='firstBaloon'>
+                        <p className='textBig'>32K</p>
+                        <p>Alunos Matriculados</p>
+                    </Baloon>
+                </div>
+                <div>
+                    <Baloon className='secondBaloon'>
+                        <p className='textBig'>4.7 <img src={star} alt="star--v1" className='icon-4x' /></p>
+                        <p>Classificação geral</p>
+                    </Baloon>
+                </div>
             </section>
             <section className='rightSide'>
                 <img src={hero} alt="White woman smiling. She is dressed in a checkered blouse and wearing glasses. She is also wearing a backpack on her back and is holding some books with her left arm and hand, and making a 'thumbs up' sign with her right hand." id='heroImage' />

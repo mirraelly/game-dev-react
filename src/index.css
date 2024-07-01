@@ -155,7 +155,7 @@ h2 {
 }
 
 .textSetting {
-	line-height: 1.375em;
+	line-height: 1.675em;
     text-align: left;
     margin-bottom: 1.25em;
 }
@@ -185,3 +185,17 @@ img {
 	width: 2rem;
 }
 
+.enrollment {
+	background-color: #DA722C;
+	width: 14em;
+	height: 2.434em;
+	border-radius: 1.5em;
+	font-size: 1.125em;
+	font-weight: 700;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 0.5em;
+}
