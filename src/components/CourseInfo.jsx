@@ -9,7 +9,7 @@ const CourseInfo = () => {
     return (
         <section className="firstSection textBlue">
             <section className='leftSide textWhite' >
-                <h2>Aprenda a arte de Game Dev</h2>
+                <h2>Aprenda a arte do Game Dev</h2>
                 <p className='textSetting'>Este é um curso abrangente sobre Desenvolvimento de Jogos.
                     Você aprenderá tudo, desde gerar uma ideia até publicar seus jogos em diferentes plataformas.</p>
                 <Button className="enrollmentButton">

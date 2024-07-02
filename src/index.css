@@ -202,7 +202,7 @@ img {
 
 /* mobile */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 640px) {
 
 	.cabecalho {
 		padding: 13.25% 0 9.25% 0;
@@ -212,7 +212,7 @@ img {
 		display: none;
 	}
 
-	.logo{
+	.logo {
 		width: 4em;
 	}
 
@@ -270,7 +270,47 @@ img {
 	}
 }
 
-/* @media screen and (min-width: 720px) and (max-width: 1024px) {} */
-
 /* tablet */
-/* @media screen and (max-width: 1024px) {} */
+
+ @media screen and (min-width: 640px) and (max-width: 1024px) {
+
+/* @media screen and (max-width: 1008px) { */
+
+	.cabecalho {
+		padding: 6.25% 0 3.25% 0;
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.logo {
+		width: 4em;
+	}
+
+	.menuOptions {
+		gap: 0.7em;
+	}
+
+	.enrollment-btn,
+	.enrollment>span {
+		font-size: 1rem;
+	}
+
+	.firstSection {
+		display: block;
+		padding: 14em 13% 0 11%;
+		overflow: hidden;
+	}
+
+	.firstSection .baloon {
+		width: 11em;
+	}
+
+	.firstSection .middle> :nth-child(2) {
+		width: 87%;
+	}
+
+	.rightSide img {
+		width: 123%;
+	}
+}
