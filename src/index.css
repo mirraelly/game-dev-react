@@ -149,15 +149,15 @@ h3 {
 
 h2 {
 	font-size: 3.125em;
-	line-height: 3.5rem;
+	line-height: 3.8rem;
 	text-align: left;
-    margin-bottom: 1.50rem;
+	margin-bottom: 1.50rem;
 }
 
 .textSetting {
-	line-height: 1.675em;
-    text-align: left;
-    margin-bottom: 1.25em;
+	line-height: 2em;
+	text-align: left;
+	margin-bottom: 1.25em;
 }
 
 .textBig {
@@ -188,7 +188,7 @@ img {
 .enrollment {
 	background-color: #DA722C;
 	width: 14em;
-	height: 2.434em;
+	height: 3.5em;
 	border-radius: 1.5em;
 	font-size: 1.125em;
 	font-weight: 700;
@@ -199,3 +199,78 @@ img {
 	flex-wrap: wrap;
 	gap: 0.5em;
 }
+
+/* mobile */
+
+@media screen and (max-width: 720px) {
+
+	.cabecalho {
+		padding: 13.25% 0 9.25% 0;
+	}
+
+	.menuOptions {
+		display: none;
+	}
+
+	.logo{
+		width: 4em;
+	}
+
+	#responsiveMenu {
+		display: flex;
+	}
+
+	h2 {
+		font-size: 2.25em;
+		line-height: 3rem;
+	}
+
+	.textBig {
+		font-size: 1.875em;
+	}
+
+	p {
+		font-size: 0.875em;
+	}
+
+	.firstSection {
+		flex-direction: column;
+		overflow: hidden;
+		padding: 7em 5% 0 9%;
+	}
+
+	.enrollment {
+		font-size: 1em;
+	}
+
+	.firstSection .middle {
+		gap: 3em;
+		padding-top: 6em;
+		z-index: 1;
+		position: absolute;
+	}
+
+	.firstSection .baloon {
+		width: 11em;
+	}
+
+	.firstSection .middle> :nth-child(2) {
+		width: 85%;
+	}
+
+	.rightSide {
+		z-index: auto;
+		position: relative;
+		left: 45%;
+	}
+
+	.rightSide img {
+		padding: 0;
+		width: 150%;
+	}
+}
+
+/* @media screen and (min-width: 720px) and (max-width: 1024px) {} */
+
+/* tablet */
+/* @media screen and (max-width: 1024px) {} */

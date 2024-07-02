@@ -1,0 +1,39 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3.25% 0 3.25% 0;
+    align-items: center;
+    position: absolute;
+    width: 85%;
+    margin: auto;
+    left: 8.8%;
+    font-weight: 700;
+}
+
+.logo {
+    width: 5em;
+}
+
+#responsiveMenu {
+    display: none;
+}
+
+.menuOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.enrollment-btn {
+    font-size: 1.125em;
+    background-color: #023047;
+    width: 12em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    border-radius: 1.5em;
+}

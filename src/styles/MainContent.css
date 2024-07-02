@@ -3,7 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5% 0 9%;
+    padding: 5em 5% 0 9%;
+}
+
+.firstSection > div {
+    display: flex;
 }
 
 .firstSection .leftSide {
@@ -11,18 +15,19 @@
 }
 
 .firstSection .middle {
-    flex: 0 0 20%;
+    flex: 0 0 40%;
 }
 
 .firstSection .rightSide {
-    flex: 0 0 40%;
+    flex: 0 0 60%;
 }
 
 .firstSection .middle {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     gap: 8em;
+    padding-top: 8em;
 }
 
 .firstSection .baloon {
@@ -47,5 +52,11 @@
 }
 
 .firstSection .middle> :nth-child(2) {
-    width: 80%;
+    width: 70%;
 }
+
+.rightSide img {
+    padding: 4em 0 0 2em ;
+}
+
+
