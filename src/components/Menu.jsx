@@ -14,7 +14,7 @@ const Menu = () => {
                 <div>
                     <img src={x} alt="Close button" className='icon-4x' onClick={() => { setOpen(false) }} />
                 </div>
-                <nav>
+                <nav className='nav-seconde-menu'>
                     <ul className='textWhite seconde-menu-options'>
                         <li>Sobre</li>
                         <li>Serviços</li>
