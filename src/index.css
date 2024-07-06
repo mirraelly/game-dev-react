@@ -140,11 +140,17 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+.testimonial-text,
+h6 {
 	font-weight: 900;
 	font-family: "Raleway", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
+}
+
+h1 {
+	font-size: 3.75em;
 }
 
 h2 {
@@ -152,6 +158,19 @@ h2 {
 	line-height: 3.8rem;
 	text-align: left;
 	margin-bottom: 1.50rem;
+}
+
+h6 {
+	font-size: 1.5em;
+}
+
+.rounded-edge {
+	border-radius: 1.5em;
+}
+
+.font-normal-rale {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.125em;
 }
 
 .textSetting {
@@ -184,6 +203,12 @@ img {
 .icon-4x {
 	width: 2rem;
 }
+
+.icon-7x {
+	width: 7em;
+}
+
+
 
 .enrollment {
 	background-color: #DA722C;
@@ -272,9 +297,9 @@ img {
 
 /* tablet */
 
- @media screen and (min-width: 640px) and (max-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 1024px) {
 
-/* @media screen and (max-width: 1008px) { */
+	/* @media screen and (max-width: 1008px) { */
 
 	.cabecalho {
 		padding: 6.25% 0 3.25% 0;

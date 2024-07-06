@@ -1,0 +1,83 @@
+.secondSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 7em 9% 9% 9%;
+    gap: 7em;
+}
+
+.decorative-ribbon::after {
+    height: 32.5em;
+    width: 2em;
+    content: '';
+    display: block;
+    background: #023047;
+    position: absolute;
+    border-radius: 1.5em;
+    margin: -2.7em 2.7em 0 77px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    position: relative;
+    z-index: 1;
+}
+
+.box {
+    width: 25em;
+    height: 12em;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    min-height: 10em;
+    line-height: 1.6em;
+    box-shadow: 0 0.5625em 2.25em rgba(0,0,0, 20%);
+}
+
+.testimonial-text {
+    height: 5em;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    font-size: 1.125em;
+    border-radius: 0 0 1.5em 1.5em;
+}
+
+.testemonial-blue {
+    background-color: #6F7DFB;
+}
+
+.testemonial-orange {
+    background-color: #DA722C;
+}
+
+.box figure {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin: 1.1em -2em;
+}
+
+.box-two {
+    margin-left: 2em;
+}
+
+.avatar {
+    margin-top: -2.2em;
+    z-index: 1;
+}
+
+.rigth-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2em;
+    line-height: 1.7em;
+}
+
+.rigth-text h1 {
+    line-height: 1.15em;
+}

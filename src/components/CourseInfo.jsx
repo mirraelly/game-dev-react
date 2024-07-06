@@ -27,7 +27,7 @@ const CourseInfo = () => {
                     </div>
                     <div>
                         <Baloon className='secondBaloon'>
-                            <p className='textBig'>4.7 <img src={star} alt="star--v1" className='icon-4x' /></p>
+                            <p className='textBig'>4.7 <img src={star} alt="Yellow star" className='icon-4x' /></p>
                             <p>Classificação geral</p>
                         </Baloon>
                     </div>
