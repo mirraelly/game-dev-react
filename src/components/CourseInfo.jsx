@@ -20,12 +20,14 @@ const CourseInfo = () => {
             <div>
                 <section className='middle'>
                     <div>
-                        <Baloon className='firstBaloon'>
-                            <p className='textBig'>32K</p>
-                            <p>Alunos Matriculados</p>
-                        </Baloon>
+                        <div className='baloon-box'>
+                            <Baloon className='firstBaloon'>
+                                <p className='textBig'>32K</p>
+                                <p>Alunos Matriculados</p>
+                            </Baloon>
+                        </div>
                     </div>
-                    <div>
+                    <div className='baloon-box'>
                         <Baloon className='secondBaloon'>
                             <p className='textBig'>4.7 <img src={star} alt="Yellow star" className='icon-4x' /></p>
                             <p>Classificação geral</p>

@@ -40,6 +40,9 @@
     justify-content: center;
     flex-direction: column;
     border-radius: 20px;
+    /* box-shadow: 0 4px 4px rgba(0,0,0, 25%), */
+    box-shadow: 0 4px 4px linear-gradient(to right, #6F7DFB, #3B448F);
+    margin: 0 0.5em 0.7em 0;
 }
 
 .firstSection .middle>div {
@@ -53,6 +56,11 @@
 
 .firstSection .middle> :nth-child(2) {
     width: 70%;
+}
+
+.baloon-box {
+    background: linear-gradient(180deg, #6F7DFB, #3B448F);
+    border-radius: 1.5em;
 }
 
 .rightSide img {
