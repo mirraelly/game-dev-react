@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 5em 5% 0 9%;
+    overflow: hidden;
 }
 
 .firstSection > div {
@@ -65,6 +66,7 @@
 
 .rightSide img {
     padding: 4em 0 0 2em ;
+    margin-bottom: -5px;
 }
 
 

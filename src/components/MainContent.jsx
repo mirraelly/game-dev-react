@@ -1,7 +1,6 @@
 import Section from './Section';
 import CourseInfo from './CourseInfo';
 import '../styles/MainContent.css';
-import Menu from './Menu';
 import TestemunhalInfo from './TestemunhalInfo';
 
 const MainContent = () => {
@@ -10,7 +9,6 @@ const MainContent = () => {
             <Section>
                 <CourseInfo />
             </Section>
-           <Menu />
             <Section>
                 <TestemunhalInfo />
             </Section>
