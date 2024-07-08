@@ -1,6 +1,6 @@
 .decorative-coursCard::after {
     height: 0.5em;
-    width: 34%;
+    width: 35.5%;
     content: '';
     display: block;
     background: #023047;
@@ -39,7 +39,7 @@
 
 .card-box-game h4 {
     font-size: 1.875em;
-    flex: 0 0 85%;
+    flex: 0 0 84%;
     line-height: 1.5em;
 }
 

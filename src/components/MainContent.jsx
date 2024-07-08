@@ -3,6 +3,7 @@ import CourseInfo from './CourseInfo';
 import '../styles/MainContent.css';
 import TestemunhalInfo from './TestemunhalInfo';
 import CardInfo from './CardInfo';
+import AppInfo from './AppInfo';
 
 const MainContent = () => {
     return (
@@ -16,9 +17,9 @@ const MainContent = () => {
             <Section>
                 <CardInfo />
             </Section>
-
-            {/* <Section></Section>
-            <Section></Section> */}
+            <Section>
+                <AppInfo/>
+            </Section>
         </>
     );
 

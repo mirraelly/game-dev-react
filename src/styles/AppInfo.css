@@ -1,0 +1,19 @@
+.fourthSection {
+    padding: 5em 6% 9% 9%;
+    flex-direction: column;
+}
+
+.fourthSection,
+.appCard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+.appCard-container {
+    flex-direction: row;
+    padding-top: 1.3em;
+}
+
+

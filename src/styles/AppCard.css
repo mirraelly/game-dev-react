@@ -1,0 +1,21 @@
+.appCard-box {
+    background-color: #000000;
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    padding: 1.2em 5em 1.2em 1.8em;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.apps p {
+    font-size: 1.5em;
+
+}
+
+.app-icon {
+    width: 4em;
+}
