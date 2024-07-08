@@ -1,0 +1,56 @@
+.decorative-coursCard::after {
+    height: 0.5em;
+    width: 34%;
+    content: '';
+    display: block;
+    background: #023047;
+    position: absolute;
+    border-radius: 1.5em;
+    margin: -0.5em 2.2em 1em 2em;
+}
+
+.card-box-game {
+    background-color: #FFFFFF;
+    height: 27em;
+}
+
+.card-box-game figure {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.game-img {
+    margin: 0 auto;
+    /* width: 29.09em; */
+    height: 16.375em;
+    width: 90%;
+    object-fit: cover;
+    box-shadow: 0 0.25em 0.5em rgba(0,0,0, 25%);
+}
+
+.card-box-game figure figcaption {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 2em 2em 1.5em 2em;
+}
+
+.card-box-game h4 {
+    font-size: 1.875em;
+    flex: 0 0 85%;
+    line-height: 1.5em;
+}
+
+.card-caption-div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.card-caption-p {
+    font-size: 1em;
+}

@@ -1,0 +1,29 @@
+.thirdSection {
+    padding: 5em 6% 9% 9%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 3.5em;
+}
+
+.decorative-coursCard {
+    width: 50%;
+}
+
+.our-course-h1 {
+    text-align: center;
+}
+
+.container-coursCard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 100%; */
+    gap: 4.5em;
+}
+
+.all-cours {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}

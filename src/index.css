@@ -142,7 +142,9 @@ h1,
 h2,
 h3,
 .testimonial-text,
-h6 {
+h6,
+h4,
+.card-caption-p {
 	font-weight: 900;
 	font-family: "Raleway", sans-serif;
 	font-optical-sizing: auto;
@@ -182,6 +184,11 @@ h6 {
 .textBig {
 	font-size: 2.25em;
 	font-weight: 700;
+}
+
+.firstSection,
+.thirdSection {
+	background: linear-gradient(180deg, #6F7DFB, #3B448F);
 }
 
 .textWhite {

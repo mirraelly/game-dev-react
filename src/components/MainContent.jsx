@@ -2,6 +2,7 @@ import Section from './Section';
 import CourseInfo from './CourseInfo';
 import '../styles/MainContent.css';
 import TestemunhalInfo from './TestemunhalInfo';
+import CardInfo from './CardInfo';
 
 const MainContent = () => {
     return (
@@ -12,6 +13,10 @@ const MainContent = () => {
             <Section>
                 <TestemunhalInfo />
             </Section>
+            <Section>
+                <CardInfo />
+            </Section>
+
             {/* <Section></Section>
             <Section></Section> */}
         </>
