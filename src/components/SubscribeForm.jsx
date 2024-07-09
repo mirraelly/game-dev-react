@@ -1,6 +1,9 @@
 const SubscribeForm = () => {
     return (
-        <div></div>
+        <div>
+            <input type="text" placeholder="Email Address" />
+            <button>Subscrever</button>
+        </div>
     );
 };
 
