@@ -1,0 +1,38 @@
+
+.e-mail-edge {
+    border: none;
+    border-radius: 0.5em;
+}
+
+.email-forms {
+    height: 2.5em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    overflow: hidden;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+
+.email-input {
+    width: 100%;
+    padding: 0 1em 0 1.5em;
+    margin: auto;
+    outline: none;
+}
+
+.email-submit {
+    background-color: #023047;
+    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 25%);
+    padding: 0.5em 1.7em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    margin: auto 0.5em;
+}
+
+.email-submit:hover {
+    background-color: #DA722C;
+}

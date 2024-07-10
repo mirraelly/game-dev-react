@@ -4,6 +4,7 @@ import star from '../assets/images/star-icon.svg';
 import hero from '../assets/images/hero-image.svg';
 import pencilIcon from '../assets/images/pencilIcon.svg';
 import '../styles/CourseInfo.css';
+import '../styles/Baloon.css';
 
 const CourseInfo = () => {
     return (

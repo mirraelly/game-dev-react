@@ -130,7 +130,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Estilo global da página  */
+/* global styles  */
 
 body {
 	font-family: "Poppins", sans-serif;
@@ -164,6 +164,10 @@ h2 {
 
 h6 {
 	font-size: 1.5em;
+}
+
+p:not(.baloon>*) {
+	line-height: 1.875em;
 }
 
 .rounded-edge {
@@ -250,6 +254,10 @@ img {
 		display: flex;
 	}
 
+	h1 {
+		font-size: 1.875em;
+	}
+
 	h2 {
 		font-size: 2.25em;
 		line-height: 3rem;
@@ -259,7 +267,8 @@ img {
 		font-size: 1.875em;
 	}
 
-	p {
+	.baloon> :nth-child(2),
+	.font-normal-rale {
 		font-size: 0.875em;
 	}
 
@@ -269,6 +278,7 @@ img {
 		padding: 7em 5% 0 9%;
 	}
 
+	p,
 	.enrollment {
 		font-size: 1em;
 	}
@@ -298,13 +308,185 @@ img {
 		padding: 0;
 		width: 150%;
 	}
+
+	h6 {
+		font-size: 1.125em;
+	}
+
+	.box figure {
+		margin: 0.8em -4em;
+	}
+
+	.all-cours .enrollment {
+		width: 11em;
+		height: 2.8em;
+	}
+
+	.decorative-ribbon::after {
+		width: 1.5em;
+		height: 29.5em;
+		margin: -2.2em 0.7em 0.1em 3em;
+	}
+
+	.testimonials {
+		gap: 2em;
+	}
+
+	.icon-7x {
+		width: 6.5em;
+	}
+
+	.rigth-text .enrollment {
+		margin: 0 65.2%;
+	}
+
+	.thirdSection {
+		padding: 3em 0 9% 0;
+	}
+
+	.decorative-coursCard {
+		width: 100%;
+	}
+
+	.container-coursCard {
+		gap: 3.5em;
+	}
+
+	.decorative-coursCard::after {
+		width: 84%;
+	}
+
+	.card-box-game h4 {
+		font-size: 1.5em;
+		flex: 0 0 72%;
+	}
+
+	.card-box-game figure figcaption {
+		margin: 1em 1.5em 0.5em 1.5em;
+	}
+
+	.card-box-game {
+		height: 21.5em;
+	}
+
+	.game-img {
+		height: 13.375em;
+		margin: 0 auto 0.5em auto;
+	}
+
+	.fourthSection {
+		padding: 5em 7% 20% 7%;
+	}
+
+	.fourthSection p {
+		text-align: center;
+	}
+
+	.appCard-container {
+		flex-direction: column;
+		padding-top: 0;
+	}
+
+	.apps {
+		padding: 1.2em 0 1.2em 1em;
+		width: 17em;
+	}
+
+	.app-icon {
+		width: 3.5em;
+	}
+
+	.footer-container {
+		align-items: center;
+		text-align: center;
+		gap: 2em;
+	}
+
+	.footer-links {
+		padding: 0;
+	}
+
+	.footer-box {
+		flex-direction: column;
+	}
+
+	.footer-box-left {
+		flex-direction: column;
+		gap: 2em;
+	}
+
+	.icon-container {
+		justify-content: center;
+	}
+
+	.email-forms {
+		background-color: transparent;
+		overflow: visible;
+		height: 5.5em;
+		width: 100%;
+		align-items: center;
+		flex-direction: column;
+		gap: 0.5em;
+	}
+
+	.email-input {
+		margin: 0.5em 2.5em 0.5em 2.5em;
+		padding: 0.8em 1.2em;
+	}
+
+	.email-submit {
+		padding: 0.4em 1.5em;
+	}
+
+	.copy {
+		padding: 0 0 2em 0;
+	}
 }
 
 /* tablet */
 
-@media screen and (min-width: 640px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+	.secondSection {
+		flex-direction: column-reverse;
+		align-items: normal;
+		padding: 5em 7% 17% 7%;
+		gap: 5em;
+	}
 
-	/* @media screen and (max-width: 1008px) { */
+	.box {
+		width: 100%;
+		height: 11.5em;
+	}
+
+	.box-two {
+		margin-left: 0;
+	}
+
+	.all-cours .enrollment {
+		width: 12em;
+		height: 3em;
+	}
+
+	.rigth-text .enrollment {
+		width: 9em;
+		height: 3em;
+	}
+
+	p:not(.baloon>*) {
+		line-height: 1.85em;
+	}
+
+	.leftSide .enrollment {
+		width: 13em;
+		height: 3em;
+	}
+
+	.container-coursCard {
+		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
 
 	.cabecalho {
 		padding: 6.25% 0 3.25% 0;
@@ -342,5 +524,44 @@ img {
 
 	.rightSide img {
 		width: 123%;
+		padding: 0;
 	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	.thirdSection {
+		padding: 5em 0 7% 0;
+	}
+
+	.decorative-coursCard {
+		width: 80%;
+	}
+
+	.container-coursCard {
+		gap: 2em;
+	}
+
+	.rigth-text .enrollment {
+		margin: 0 75.7%;
+	}
+
+	.footer-container {
+		padding: 6% 0% 0% 8%;
+	}
+
+	.footer-box {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.email-forms {
+		width: 150%;
+	}
+
+	.copy {
+		padding: 0 0 4em 0;
+	}
+
 }
