@@ -1,7 +1,7 @@
-import SubscribeForm from './SubscribeForm';
-import facebook from '../assets/images/facebook.svg';
-import instagram from '../assets/images/instagram.svg';
-import '../styles/Footer.css';
+import SubscribeForm from '../SubscribeForm/SubscribeForm';
+import facebook from '../../assets/images/facebook.svg';
+import instagram from '../../assets/images/instagram.svg';
+import './Footer.css';
 
 const Footer = () => {
     return (

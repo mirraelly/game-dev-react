@@ -1,6 +1,6 @@
-import '../styles/Menu.css';
-import x from '../assets/images/x.svg';
-import menu from '../assets/images/menu.svg';
+import './Menu.css';
+import x from '../../assets/images/x.svg';
+import menu from '../../assets/images/menu.svg';
 import { useState } from 'react';
 
 const Menu = () => {

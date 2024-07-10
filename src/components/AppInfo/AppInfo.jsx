@@ -1,8 +1,8 @@
-import AppCard from './AppCard';
-import appStore from '../assets/images/appStore.svg';
-import googlePlay from '../assets/images/googlePlay.svg';
-import '../styles/AppInfo.css';
-import '../styles/AppCard.css';
+import AppCard from '../AppCard/AppCard';
+import appStore from '../../assets/images/appStore.svg';
+import googlePlay from '../../assets/images/googlePlay.svg';
+import './AppInfo.css';
+import '../AppCard/AppCard.css';
 
 const AppInfo = () => {
     return (

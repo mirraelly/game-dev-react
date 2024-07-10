@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import "../styles/CoursCard.css"
+import "../CoursCard/CoursCard.css"
 
 const CoursCard = ({ children }) => {
     return (

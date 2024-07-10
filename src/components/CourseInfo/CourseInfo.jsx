@@ -1,10 +1,10 @@
-import Button from './Button';
-import Baloon from './Baloon';
-import star from '../assets/images/star-icon.svg';
-import hero from '../assets/images/hero-image.svg';
-import pencilIcon from '../assets/images/pencilIcon.svg';
-import '../styles/CourseInfo.css';
-import '../styles/Baloon.css';
+import Button from '../Button/Button';
+import Baloon from '../Baloon/Baloon';
+import star from '../../assets/images/star-icon.svg';
+import hero from '../../assets/images/hero-image.svg';
+import pencilIcon from '../../assets/images/pencilIcon.svg';
+import './CourseInfo.css';
+import '../Baloon/Baloon.css';
 
 const CourseInfo = () => {
     return (

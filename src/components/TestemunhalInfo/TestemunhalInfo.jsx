@@ -1,8 +1,8 @@
-import '../styles/TestemunhalInfo.css';
-import TestemunhalCard from './TestemunhalCard';
-import photoHer from '../assets/images/photo-her.svg';
-import photoHis from '../assets/images/photo-his.svg';
-import Button from './Button';
+import './TestemunhalInfo.css';
+import TestemunhalCard from '../TestemunhalCard/TestemunhalCard';
+import photoHer from '../../assets/images/photo-her.svg';
+import photoHis from '../../assets/images/photo-his.svg';
+import Button from '../Button/Button';
 
 const TestemunhalInfo = () => {
 

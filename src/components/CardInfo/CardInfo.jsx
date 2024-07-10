@@ -1,9 +1,9 @@
-import CoursCard from "./CoursCard";
-import mario from '../assets/images/mario-game.svg';
-import clock from '../assets/images/clock.svg';
-import gameStick from '../assets/images/stick-game.svg';
-import Button from "./Button";
-import "../styles/CardInfo.css";
+import CoursCard from "../CoursCard/CoursCard";
+import mario from '../../assets/images/mario-game.svg';
+import clock from '../../assets/images/clock.svg';
+import gameStick from '../../assets/images/stick-game.svg';
+import Button from "../Button/Button";
+import "../CardInfo/CardInfo.css";
 
 const CardInfo = () => {
     return (

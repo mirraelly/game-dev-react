@@ -1,9 +1,9 @@
-import Section from './Section';
-import CourseInfo from './CourseInfo';
-import '../styles/MainContent.css';
-import TestemunhalInfo from './TestemunhalInfo';
-import CardInfo from './CardInfo';
-import AppInfo from './AppInfo';
+import Section from '../Section/Section';
+import CourseInfo from '../CourseInfo/CourseInfo';
+import '../MainContent/MainContent.css';
+import TestemunhalInfo from '../TestemunhalInfo/TestemunhalInfo';
+import CardInfo from '../CardInfo/CardInfo';
+import AppInfo from '../AppInfo/AppInfo';
 
 const MainContent = () => {
     return (

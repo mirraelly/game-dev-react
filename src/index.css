@@ -374,6 +374,10 @@ img {
 		margin: 0 auto 0.5em auto;
 	}
 
+	.all-cours {
+		padding: 0;
+	}
+
 	.fourthSection {
 		padding: 5em 7% 20% 7%;
 	}
@@ -506,6 +510,10 @@ img {
 	.enrollment-btn,
 	.enrollment>span {
 		font-size: 1rem;
+	}
+
+	.all-cours {
+		padding: 0 3em;
 	}
 
 	.firstSection {

@@ -1,4 +1,4 @@
-import '../styles/SubscribeForm.css';
+import './SubscribeForm.css';
 
 const SubscribeForm = () => {
     return (
