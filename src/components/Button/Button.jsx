@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Button = ({ children }) => {
     return (
-        <div className="enrollment">
+        <div className="enrollment item-3">
             { children }
         </div>
     )

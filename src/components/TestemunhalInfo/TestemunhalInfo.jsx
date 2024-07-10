@@ -8,7 +8,7 @@ const TestemunhalInfo = () => {
 
     return (
         <section className="secondSection textBlue">
-            <div >
+            <div className='item-2'>
                 <div className='decorative-ribbon'></div>
                 <section className='testimonials'>
                     <div className='box box-one rounded-edge'>

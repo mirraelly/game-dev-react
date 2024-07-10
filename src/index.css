@@ -337,7 +337,7 @@ img {
 	}
 
 	.rigth-text .enrollment {
-		margin: 0 65.2%;
+		margin: 0 60%;
 	}
 
 	.thirdSection {
@@ -456,6 +456,21 @@ img {
 		padding: 5em 7% 17% 7%;
 		gap: 5em;
 	}
+
+	/* .secondSection {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(2, 38%);
+	}
+
+	.item-2 {
+		order: 2;
+	}
+
+	.item-3 {
+		order: 3;
+	} */
+
 
 	.box {
 		width: 100%;
