@@ -542,7 +542,7 @@ img {
 	}
 
 	.firstSection .middle> :nth-child(2) {
-		width: 87%;
+		width: 78%;
 	}
 
 	.rightSide img {
@@ -556,6 +556,10 @@ img {
 
 	.thirdSection {
 		padding: 5em 0 7% 0;
+	}
+
+	.decorative-coursCard::after {
+		width: 71.5%;
 	}
 
 	.decorative-coursCard {
