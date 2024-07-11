@@ -314,7 +314,7 @@ img {
 	}
 
 	.box figure {
-		margin: 0.8em -4em;
+		margin: 1.3em -4em;
 	}
 
 	.all-cours .enrollment {
@@ -358,11 +358,11 @@ img {
 
 	.card-box-game h4 {
 		font-size: 1.5em;
-		flex: 0 0 72%;
+		flex: 0 0 78%;
 	}
 
 	.card-box-game figure figcaption {
-		margin: 1em 1.5em 0.5em 1.5em;
+		margin: 1em 1em 0.5em 1.2em;
 	}
 
 	.card-box-game {
