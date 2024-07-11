@@ -451,26 +451,32 @@ img {
 
 @media screen and (max-width: 1024px) {
 	.secondSection {
-		flex-direction: column-reverse;
-		align-items: normal;
-		padding: 5em 7% 17% 7%;
+		padding: 5em 7% 13% 7%;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-auto-rows: min-content;
 		gap: 5em;
 	}
 
-	/* .secondSection {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		grid-template-rows: repeat(2, 38%);
+	.rigth-text h1 {
+		padding: 0 0 0.6em 0;
 	}
 
-	.item-2 {
+	.item-1 {
 		order: 2;
 	}
 
-	.item-3 {
-		order: 3;
-	} */
+	.item-2 {
+		display: contents;
+	}
 
+	.col-1 {
+		order: 1;
+	}
+
+	.col-2 {
+		order: 3;
+	}
 
 	.box {
 		width: 100%;

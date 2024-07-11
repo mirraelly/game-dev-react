@@ -8,7 +8,7 @@ const TestemunhalInfo = () => {
 
     return (
         <section className="secondSection textBlue">
-            <div className='item-2'>
+            <div className='item-1'>
                 <div className='decorative-ribbon'></div>
                 <section className='testimonials'>
                     <div className='box box-one rounded-edge'>
@@ -37,15 +37,17 @@ const TestemunhalInfo = () => {
                     </div>
                 </section>
             </div>
-            <section className='rigth-text'>
-                <h1>O que nossos alunos dizem</h1>
-                <div>
+            <section className='rigth-text item-2'>
+                <div className='col-1'>
+                    <h1>O que nossos alunos dizem</h1>
                     <p>Todos os alunos têm acesso a todos os vídeos e também ao código-fonte dos projetos.</p>
                     <p>Você também terá acesso a um canal privado do Discord onde poderá discutir suas dúvidas.</p>
                 </div>
-                <Button className="enrollmentButton">
-                    <span className='textWhite'> Saiba mais</span>
-                </Button>
+                <div className='item-3 col-2'>
+                    <Button className="enrollmentButton">
+                        <span className='textWhite'> Saiba mais</span>
+                    </Button>
+                </div>
             </section>
         </section>
     );
