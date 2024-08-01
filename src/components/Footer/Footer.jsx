@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
             </section>
             <section className='copy'>
-                <p>Este site é desenvolvido por GTCoding © 2021</p>
+                <p>Este site é desenvolvido por Mirraely © 2024</p>
             </section>
         </footer>
     );
