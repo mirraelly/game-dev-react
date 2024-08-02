@@ -44,11 +44,11 @@ Trata-se de um website responsivo e com uma interface de usuário intuitiva e mo
 <div style="display: flex; justify-content: center; flex-direction: column; gap: 15px;">
   <div style="display: flex; justify-content: center; flex-direction: column; gap: 20px;">
     <div align="center">
-      <img alt="Web Initial Page" height="480" src="./src/assets/images/images_readme/web_initial.jpg"><br>
+      <img alt="Web Initial Page" height="390" width="740" src="./src/assets/images/images_readme/web_initial.jpg"><br>
       <em>Visualização da primeira tela via Web</em> 
     </div>
     <div align="center">
-      <img alt="Web Second Page" height="478" src="./src/assets/images/images_readme/web_second.jpg"><br>
+      <img alt="Web Second Page" height="390" width="740" src="./src/assets/images/images_readme/web_second.jpg"><br>
       <em>Visualização da segunda tela via Web</em> 
     </div>
   </div>
