@@ -54,7 +54,7 @@ Trata-se de um website responsivo e com uma interface de usuário intuitiva e mo
   </div>
 
   <div align="center">
-    <div style="display: flex; justify-content: center; gap: 20px;">
+    <div style="display: flex;flex-direction:wrap; justify-content: center; gap: 20px;">
       <div>
         <img alt="Phone Inicial Page" height="580" width="246" src="./src/assets/images/images_readme/phone_initial.jpeg"><br>
         <em>Primeira tela - Celular</em> 
