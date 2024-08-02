@@ -41,8 +41,8 @@ Trata-se de um website responsivo e com uma interface de usuário intuitiva e mo
 
 ### Telas
 
-<div style="display: flex; justify-content: center; flex-direction: column; gap: 15px;">
-  <div style="display: flex; justify-content: center; flex-direction: column; gap: 20px;">
+<div style="display: flex; justify-content: center; flex-direction: column; gap: 35px;">
+  <div style="display: flex; justify-content: center; flex-direction: column; gap: 25px;">
     <div align="center">
       <img alt="Web Initial Page" height="390" width="740" src="./src/assets/images/images_readme/web_initial.jpg"><br>
       <em>Visualização da primeira tela via Web</em> 
@@ -54,13 +54,13 @@ Trata-se de um website responsivo e com uma interface de usuário intuitiva e mo
   </div>
 
   <div align="center">
-    <div style="display: flex; justify-content: center; gap: 10px;">
+    <div style="display: flex; justify-content: center; gap: 20px;">
       <div>
-        <img alt="Phone Inicial Page" height="580" src="./src/assets/images/images_readme/phone_initial.jpeg"><br>
+        <img alt="Phone Inicial Page" height="580" width="246" src="./src/assets/images/images_readme/phone_initial.jpeg"><br>
         <em>Primeira tela - Celular</em> 
       </div>
       <div>
-      <img alt="Phone Second Page" height="580" src="./src/assets/images/images_readme/phone_second.jpeg"><br>
+      <img alt="Phone Second Page" height="580" width="246" src="./src/assets/images/images_readme/phone_second.jpeg"><br>
         <em>Segunda tela - Celular</em> 
       </div>
     </div>
